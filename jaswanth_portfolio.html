@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jaswanth Sharma Machiraju's Portfolio - Bridging Logic and Aesthetics">
+  <title>Jaswanth Sharma Machiraju | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero-bg {
+      background: radial-gradient(ellipse at center, #e0e7ff 0%, #ffffff 100%);
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-in forwards;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Hero Section -->
+  <section class="hero-bg py-20 px-6 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold text-indigo-800">Jaswanth Sharma Machiraju</h1>
+    <p class="mt-4 text-xl md:text-2xl text-gray-600 animate-pulse">Bridging Logic and Aesthetics | Future Web/App Dev + UI/UX Designer</p>
+    <p class="mt-4 max-w-2xl mx-auto text-lg fade-in">Crafting user-centric digital experiences with a fusion of solid engineering and stunning visual design.</p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="#portfolio" class="px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition">Explore My Portfolio</a>
+      <a href="#contact" class="px-6 py-3 border border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-100 transition">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="bg-gray-50 py-16 px-6" id="about">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-indigo-800 mb-6">About Me</h2>
+      <p>Hi! I'm Jaswanth Sharma, a B.Tech CSE student at Vignan Institute of Technology and Science, currently in my second year. My passion? Making the digital world a better place by blending solid logic with stunning aesthetics. I'm diving deep into future web/app development and UI/UX design, aiming to create user-friendly experiences that truly shine.</p>
+      <p class="mt-4">I'm also enrolled at Vignan College of Education, reflecting my commitment to a broad, impactful educational journey.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="bg-gray-900 text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Skills & Expertise</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Programming Languages</h3>
+          <p class="mb-2">Python <span class="block w-full h-2 bg-indigo-600 rounded-full mt-1"></span></p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Soft Skills</h3>
+          <p>Leadership</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Languages</h3>
+          <p>English (Full Professional), Telugu (Full Professional), German (Elementary)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section class="bg-white py-16 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-indigo-800 mb-6">Education & Certifications</h2>
+      <ul class="space-y-4">
+        <li>B.Tech in Computer Science, Vignan Institute of Technology and Science (2024 - 2028)</li>
+        <li>B.Tech in Computer Science, Vignan College of Education (2024 - 2028)</li>
+        <li>Certifications: Introduction to Programming Using Python, Crash Course on Python</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center text-indigo-800 mb-8">Portfolio Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-4 shadow rounded">
+          <h3 class="text-xl font-semibold">AI-Powered Chatbot Design</h3>
+          <p class="mt-2 text-sm">Designed and prototyped a conversational AI interface focusing on intuitive user flows and a clean visual hierarchy.</p>
+          <button class="mt-4 text-indigo-600 hover:underline">View Case Study</button>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <h3 class="text-xl font-semibold">Project 2</h3>
+          <p class="mt-2 text-sm">Coming soon...</p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <h3 class="text-xl font-semibold">Project 3</h3>
+          <p class="mt-2 text-sm">Coming soon...</p>
+        </div>
+      </div>
+      <p class="text-center mt-6">More exciting projects are coming soon! Stay tuned.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-gray-800 text-white py-16 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Testimonials</h2>
+      <blockquote class="italic">“Jaswanth is a highly dedicated individual with a strong grasp of both technical concepts and user experience design.” </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-indigo-700 text-white py-16 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+      <p>Email: <a href="mailto:machiraju.jaswanthsharma@gmail.com" class="underline">machiraju.jaswanthsharma@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jaswanth-sharma-machiraju-a3295036b" target="_blank" class="underline">View Profile</a></p>
+      <form class="mt-6 space-y-4">
+        <input type="text" placeholder="Name" class="w-full p-3 rounded text-gray-900" required>
+        <input type="email" placeholder="Email" class="w-full p-3 rounded text-gray-900" required>
+        <input type="text" placeholder="Subject" class="w-full p-3 rounded text-gray-900">
+        <textarea placeholder="Message" rows="4" class="w-full p-3 rounded text-gray-900"></textarea>
+        <button type="submit" class="px-6 py-3 bg-white text-indigo-700 font-semibold rounded hover:bg-gray-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-4 text-center">
+    <p>&copy; 2025 Designed & Developed by Jaswanth Sharma Machiraju</p>
+  </footer>
+</body>
+
+</html>
